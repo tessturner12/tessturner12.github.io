@@ -20,6 +20,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#intro { min-height: auto; padding: 3rem 4rem 4rem 4rem; }
+			#intro.hidden { opacity: 1 !important; visibility: visible !important; transform: none !important; pointer-events: auto !important; }
+			.box.alt.gallery { overflow: hidden; margin-top: 0.5rem; }
+			.box.alt.gallery .image.fit { height: 220px; overflow: hidden; margin: 0.75rem 0; }
+			.box.alt.gallery .image.fit img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -29,7 +36,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Tess Turner</h1>
-						<p>BI Analyst, Sydney.<br/>
+						<p>Data / BI Analyst, London.<br/>
 						<a href="https://www.linkedin.com/in/tess-turner/"><b><i>View Profile</i></a></p>
 						<!-- <ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -59,10 +66,10 @@
 
 					<!-- Post -->
 						<section class="post">
-							<header class="major">
-								<h1>PowerBI</h1>
+							<header class="major" style="margin-bottom: 0.5rem;">
+								<h1 style="font-size: 1.75rem;">PowerBI</h1>
 							</header>
-							<div class="box alt">
+							<div class="box alt gallery">
 								<div class="row gtr-50 gtr-uniform">
 									<div class="col-4"><span class="image fit"><img src="images/assurance.jpg" alt="" /></span></div>
 									<div class="col-4"><span class="image fit"><img src="images//Sales.jpg" alt="" /></span></div>
@@ -85,6 +92,25 @@
 									<div class="col-4"><span class="image fit"><img src="images/Failures.jpg" alt="" /></span></div>
 								</div>
 							</div>
+
+							<header class="major" style="margin-top: 4.5rem; margin-bottom: 0.5rem; clear: both;">
+								<h1 style="font-size: 1.75rem;">Tableau</h1>
+							</header>
+							<div class="box alt gallery">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/Dashboard.png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Top Level.png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Cohort Waterfall.png" alt="" /></span></div>
+									<!-- Break -->
+									<div class="col-4"><span class="image fit"><img src="images/unnamed.png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (1).png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (2).png" alt="" /></span></div>
+									<!-- Break -->
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (3).png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (4).png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (5).png" alt="" /></span></div>
+								</div>
+							</div>
 							<!-- <article>
 								<h3>Interactive</h3>
 								<h4>Workplace Drinking Culture</h4>
@@ -101,11 +127,7 @@
 				<section class="split contact">
 					<section class="alt">
 						<h3>Address</h3>
-						<p>Sydney, AU</p>
-					</section>
-					<section>
-						<h3>Phone</h3>
-						<p><a href="#">+61 460 842 272</a></p>
+						<p>London, UK</p>
 					</section>
 					<section>
 						<h3>Email</h3>

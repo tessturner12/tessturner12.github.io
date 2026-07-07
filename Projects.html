@@ -20,6 +20,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#main .image.fit img { border: 1px solid #212931; }
+			#main .row { overflow: hidden; }
+			#main .actions.special { margin-top: 1.5rem; clear: both; }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -47,15 +52,37 @@
 			<!-- Main -->
 				<div id="main">
 
-					<!-- Featured Post -->
-						<article class="post featured">
+					<!-- Rally -->
+						<article class="post">
 							<header class="major">
-								<h1><a href="#">View on Github</a></h1>
-								<p>Work in progress.</p>
+								<h2>Rally</h2>
 							</header>
-							<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+							<p>A web app that finds the fairest London meeting point for a group, based on real TfL journey times rather than the geographic midpoint. Everyone adds their starting station, Rally checks live journey times across zones, and suggests the spot where nobody's commute is unfairly long, plus nearby venues to meet at. Try it live at <a href="https://joinrally.place/">joinrally.place</a>.</p>
+							<p><em>Next.js &middot; TypeScript &middot; TfL API &middot; Google Places API</em></p>
+							<span class="image fit"><img src="images/rally.png" alt="Rally landing page - find the fair spot" /></span>
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-6"><span class="image fit"><img src="images/rally2.png" alt="Rally suggested meeting points with journey breakdown" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="images/rally3.png" alt="Rally nearby venue suggestions" /></span></div>
+							</div>
 							<ul class="actions special">
-								<li><a href="#" class="button large">View Project</a></li>
+								<li><a href="https://github.com/tessturner12/rally-app" class="button large">View on GitHub</a></li>
+							</ul>
+						</article>
+
+					<!-- Commute-Checker -->
+						<article class="post">
+							<header class="major">
+								<h2>Commute-Checker</h2>
+							</header>
+							<div class="row gtr-50">
+								<div class="col-8">
+									<p>A Python script that checks TfL journey status each morning and sends me an alert if any of my tube or bus routes are delayed or suspended, so I know before I leave the house.</p>
+									<p><em>Python &middot; TfL API &middot; Scheduled automation</em></p>
+								</div>
+								<div class="col-4"><span class="image fit"><img src="images/commute.png" alt="Commute-Checker alert email showing TfL journey options and disruption status" /></span></div>
+							</div>
+							<ul class="actions special">
+								<li><a href="https://github.com/tessturner12/Commute-Checker" class="button large">View on GitHub</a></li>
 							</ul>
 						</article>
 
@@ -123,11 +150,7 @@
 					<section class="split contact">
 						<section class="alt">
 							<h3>Location</h3>
-							<p>Sydney, AU</p>
-						</section>
-						<section>
-							<h3>Phone</h3>
-							<p><a href="#">+61 460 842 272</a></p>
+							<p>London, UK</p>
 						</section>
 						<section>
 							<h3>Email</h3>
