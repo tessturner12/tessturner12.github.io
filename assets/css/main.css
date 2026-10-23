@@ -4747,7 +4747,7 @@ input, select, textarea {
 	@media screen and (min-width: 981px) {
 
 		#nav, #main, #footer, #copyright {
-			max-width: min(88%, 100rem);
+			max-width: min(86%, 100rem);
 		}
 
 	}
