@@ -179,17 +179,6 @@
 
 				});
 
-				breakpoints.on('<=xxsmall', function() {
-
-					// Nav -> NavPanel.
-						$navContent.appendTo($navPanelInner);
-
-					// Flip icon classes.
-						$navPanelInner.find('.icons, .icon')
-							.addClass('alt');
-
-				});
-
 			// Hack: Disable transitions on WP.
 				if (browser.os == 'wp'
 				&&	browser.osVersion < 10)

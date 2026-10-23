@@ -3625,7 +3625,7 @@ input, select, textarea {
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
-		max-width: 88rem;
+		max-width: calc(70.4rem + 20%);
 		z-index: 2;
 	}
 
@@ -3755,6 +3755,31 @@ input, select, textarea {
 
 		} */
 
+		@media screen and (max-width: 736px) {
+
+			#nav {
+				width: 100%;
+				padding: 0;
+			}
+
+				#nav ul.links li {
+					flex: 1 1 auto;
+					text-align: center;
+				}
+
+					#nav ul.links li a {
+						font-size: 0.7rem;
+						letter-spacing: 0.05em;
+						padding: 0 0.5rem;
+						white-space: nowrap;
+					}
+
+				#nav ul.icons {
+					display: none;
+				}
+
+		}
+
 /* Main */
 
 	#main {
@@ -3762,7 +3787,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 88rem;
+		max-width: calc(70.4rem + 20%);
 		z-index: 2;
 	}
 
@@ -3961,7 +3986,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 88rem;
+		max-width: calc(70.4rem + 20%);
 		z-index: 2;
 	}
 
@@ -4401,7 +4426,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
-		max-width: 88rem;
+		max-width: calc(70.4rem + 20%);
 		z-index: 2;
 	}
 
