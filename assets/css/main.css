@@ -3625,7 +3625,7 @@ input, select, textarea {
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
-		max-width: calc(79.2rem + 10%);
+		max-width: calc(83.6rem + 5%);
 		z-index: 2;
 	}
 
@@ -3762,16 +3762,23 @@ input, select, textarea {
 				padding: 0;
 			}
 
+				#nav ul.links {
+					width: 100%;
+				}
+
 				#nav ul.links li {
-					flex: 1 1 auto;
+					flex: 1 1 0;
+					min-width: 0;
 					text-align: center;
 				}
 
 					#nav ul.links li a {
-						font-size: 0.7rem;
-						letter-spacing: 0.05em;
-						padding: 0 0.5rem;
+						font-size: min(0.7rem, 3.2vw);
+						letter-spacing: 0.03em;
+						padding: 0 0.25rem;
 						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: clip;
 					}
 
 				#nav ul.icons {
@@ -3787,7 +3794,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: calc(79.2rem + 10%);
+		max-width: calc(83.6rem + 5%);
 		z-index: 2;
 	}
 
@@ -3986,7 +3993,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: calc(79.2rem + 10%);
+		max-width: calc(83.6rem + 5%);
 		z-index: 2;
 	}
 
@@ -4426,7 +4433,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
-		max-width: calc(79.2rem + 10%);
+		max-width: calc(83.6rem + 5%);
 		z-index: 2;
 	}
 
