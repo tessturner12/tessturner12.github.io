@@ -24,14 +24,8 @@
 			#intro { min-height: auto; padding: 3rem 4rem 4rem 4rem; }
 			#intro.hidden { opacity: 1 !important; visibility: visible !important; transform: none !important; pointer-events: auto !important; }
 			.box.alt.gallery { overflow: hidden; margin-top: 0.5rem; }
-			.box.alt.gallery .image.fit { aspect-ratio: 16 / 10; margin: 0.75rem 0; background: #f4f4f4; border: 1px solid #e2e2e2; cursor: zoom-in; }
-			.box.alt.gallery .image.fit img { width: 100%; height: 100%; object-fit: contain; }
-			.box.alt.gallery a.image:hover img { transform: none; }
-			.box.alt.gallery a.image:hover { border-color: #18bfef; }
-			#lightbox { display: none; position: fixed; inset: 0; z-index: 10000; background: rgba(17, 22, 27, 0.92); align-items: center; justify-content: center; padding: 2rem; cursor: zoom-out; }
-			#lightbox.visible { display: flex; }
-			#lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5); }
-			#lightbox .close { position: absolute; top: 0.5rem; right: 1.25rem; color: #fff; font-size: 2.5rem; line-height: 1; border: 0; }
+			.box.alt.gallery .image.fit { margin: 0.75rem 0; }
+			.box.alt.gallery .image.fit img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; }
 		</style>
 	</head>
 	<body class="is-preload">
@@ -77,25 +71,25 @@
 							</header>
 							<div class="box alt gallery">
 								<div class="row gtr-50 gtr-uniform">
-									<div class="col-4"><a href="images/assurance.jpg" class="image fit"><img src="images/assurance.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Sales.jpg" class="image fit"><img src="images/Sales.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Reports.jpg" class="image fit"><img src="images/Reports.jpg" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/assurance.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Sales.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Reports.jpg" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/Trends2.jpg" class="image fit"><img src="images/Trends2.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Life Cycle.jpg" class="image fit"><img src="images/Life Cycle.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Works to Complete2.jpg" class="image fit"><img src="images/Works to Complete2.jpg" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/Trends2.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Life Cycle.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Works to Complete2.jpg" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/Missing Score.jpg" class="image fit"><img src="images/Missing Score.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Team Sales.jpg" class="image fit"><img src="images/Team Sales.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/monthly.PNG" class="image fit"><img src="images/monthly.PNG" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/Missing Score.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Team Sales.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/monthly.PNG" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/empty by field.jpg" class="image fit"><img src="images/empty by field.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/cex.jpg" class="image fit"><img src="images/cex.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/waterfall.jpg" class="image fit"><img src="images/waterfall.jpg" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/empty by field.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/cex.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/waterfall.jpg" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/late.PNG" class="image fit"><img src="images/late.PNG" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/map.jpg" class="image fit"><img src="images/map.jpg" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Failures.jpg" class="image fit"><img src="images/Failures.jpg" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/late.PNG" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/map.jpg" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Failures.jpg" alt="" loading="lazy" /></span></div>
 								</div>
 							</div>
 
@@ -104,17 +98,17 @@
 							</header>
 							<div class="box alt gallery">
 								<div class="row gtr-50 gtr-uniform">
-									<div class="col-4"><a href="images/Dashboard.png" class="image fit"><img src="images/Dashboard.png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Top Level.png" class="image fit"><img src="images/Top Level.png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/Cohort Waterfall.png" class="image fit"><img src="images/Cohort Waterfall.png" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/Dashboard.png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Top Level.png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/Cohort Waterfall.png" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/unnamed.png" class="image fit"><img src="images/unnamed.png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/unnamed (1).png" class="image fit"><img src="images/unnamed (1).png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/unnamed (2).png" class="image fit"><img src="images/unnamed (2).png" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed.png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (1).png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (2).png" alt="" loading="lazy" /></span></div>
 									<!-- Break -->
-									<div class="col-4"><a href="images/unnamed (3).png" class="image fit"><img src="images/unnamed (3).png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/unnamed (4).png" class="image fit"><img src="images/unnamed (4).png" alt="" loading="lazy" /></a></div>
-									<div class="col-4"><a href="images/unnamed (5).png" class="image fit"><img src="images/unnamed (5).png" alt="" loading="lazy" /></a></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (3).png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (4).png" alt="" loading="lazy" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/unnamed (5).png" alt="" loading="lazy" /></span></div>
 								</div>
 							</div>
 							<!-- <article>
@@ -165,23 +159,6 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 
-		<!-- Lightbox -->
-		<div id="lightbox"><a href="#" class="close" aria-label="Close">&times;</a><img src="" alt="" /></div>
-		<script>
-			(function() {
-				var box = document.getElementById('lightbox'), img = box.querySelector('img');
-				document.querySelectorAll('.box.alt.gallery a.image').forEach(function(a) {
-					a.addEventListener('click', function(e) {
-						e.preventDefault();
-						img.src = a.getAttribute('href');
-						box.classList.add('visible');
-					});
-				});
-				function close(e) { if (e) e.preventDefault(); box.classList.remove('visible'); img.src = ''; }
-				box.addEventListener('click', close);
-				document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close(); });
-			})();
-		</script>
 
 </body>
 </html>
